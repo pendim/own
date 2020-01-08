@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>bitFahrzentrale</title>
+<title>bIT-Fahrzentrale</title>
 </head>
-<body style="background-color:#1d4860";>
-    <!--#4c6175 bläulich
-    //#4b4b4b grau
-    //#4ea556 helles grü
-    //#102c47 dunkels blau
-    //#ffffff weiß der Bihlerschrift
-    //#1d486 helles blau
-    -->
-    <div style="background-color: #102c47; text-align: center;">
-        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 45px; color: #ffffff";>
+<link rel="stylesheet" href="style.css">
+<body class="body">
+   
+    <div class="div"; style="background-color: #102c47; text-align: center;">
+        <p style="font-size: 60px; color: #ffffff";>
             bIT-Fahrzentrale Login
         </p>
     </div>
-    <div style="text-align: center;">
-        <form style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; color: #ffffff;">
-            <label for="bname">Benutzername 
-                <input id="bname" name="bname">
-            </label>
-            <p></p>
-            <label for="pw">Passwort 
-                <input id="pw" name="pw">
-            </label>
-            <p></p>
-            <div style="text-align: center";>
-                <input type="submit" value="Login">
-                <input type="submit" value="Registrieren">
+    <div style="text-align:center;" class="table">
+        <div class="table">
+            <div class="spalte" style="text-align: right">Benutzername</div>
+            <div class="spalte" style="text-align: left"><label for="bname"><input id="bname" name="bname"></label></div>   
+        </div>
+        <div class="table">
+            <div class="spalte" style="text-align: right">Passwort</div>
+            <div class="spalte" style="text-align: left"><label for="pw"><input id="pw" name="pw"></label></div>   
+        </div>
+        <div class="table">
+            <div class="spalte" style="text-align: right">
+                <button class="btn">Login</button>
             </div>
-            </form>
+            <div class="spalte" style="text-align: left">
+                <button class="btn">Registrieren</button>
+            </div>   
+        </div>
+
+        <div style="text-align: center"; class="tr">
+            
+            
+        </div>
     </div>
 </body>
 </html>
