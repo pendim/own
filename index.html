@@ -8,7 +8,8 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body class="body">
-    <?php 
+
+    <php>
         require_once('db.php');
         $db_verbindung = mysqli_connect (
             MYSQL_HOST,
@@ -24,6 +25,9 @@
         }
         else
         {echo 'keine Verbindung möglich: ' .mysqli_error()};
+    </php>
+    <?php 
+        
     ?>
 
     <div class="div"; style="background-color: #102c47; text-align: center;">
